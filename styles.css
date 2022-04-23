@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+body {
+    background-color: #EFF1F3;
+}
+
+.main-container {
+    text-align: center;
+    /*width: 90vw;*/
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /*align-content: center;*/
+}
+
+.main-container h1 {
+    font-size: 3rem;
+
+}
+
+.inputs-section {
+    height: 5vh;
+    width: 250px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    /*height: 2%;*/
+}
+
+.inputs-section button {
+    font-family: Roboto;
+    font-size: large;
+    border-radius: 20%;
+}
+
+.inner-flex {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#task-list {
+    padding: 0;
+}
+
+.task {
+    font-size: larger;
+}
+
+.inner-flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.main-container h1 {
+    color: #696773
+}
+
+.main-container li {
+    list-style: none;
+
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
